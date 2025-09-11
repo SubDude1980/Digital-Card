@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peter Champagne - Digital Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      text-align: center;
+      padding: 30px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 400px;
+      margin: auto;
+    }
+    h1 {
+      margin-bottom: 5px;
+    }
+    h3 {
+      margin-top: 0;
+      font-weight: normal;
+      color: #444;
+    }
+    .btn {
+      display: block;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .contact { background: #0077cc; }
+    .paypal { background: #003087; }
+    .venmo { background: #3d95ce; }
+    .cashapp { background: #00c244; }
+    img.qr {
+      max-width: 200px;
+      margin: 15px auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Peter Champagne</h1>
+    <h3>The Fix — Skilled Tradesman</h3>
+    <p>📞 214-597-3963<br>✉️ bassbwithu@gmail.com</p>
+
+    <!-- Contact -->
+    <a class="btn contact" href="PeterChampagne.vcf" download>📇 Save Contact</a>
+
+    <!-- PayPal (with QR option) -->
+    <a class="btn paypal" href="https://paypal.me/bassbwithu" target="_blank">💰 Tip via PayPal</a>
+    <img class="qr" src="paypal-qr.png" alt="PayPal QR">
+
+    <!-- Venmo -->
+    <a class="btn venmo" href="https://venmo.com/u/Bassbwithu" target="_blank">💰 Tip via Venmo</a>
+
+    <!-- CashApp -->
+    <a class="btn cashapp" href="https://cash.app/$bassbwithu" target="_blank">💰 Tip via CashApp</a>
+  </div>
+</body>
+</html>
